@@ -25,7 +25,7 @@ ul{
 
 h1{
     font-size: 48px;
-    font-weight: 1000;
+    font-weight: 800;
     color: #F9FaF8;
     margin: 0;
     padding: 0;
@@ -85,6 +85,46 @@ max-width: 400px;
 .body_2{
     background-color: white;
     padding: 0 10vw 0 10vw;
-    min-height: 25vw
+    min-height: 25vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+    
+}
+
+h3{
+font-size: 36px;
+font-weight: 800;
+color: #1F2937
+}
+
+.info{
+border: solid  #3882F6  4px;
+height: 200px;
+min-width: 200px;
+border-radius: 25px;
+margin-bottom: 16px;
+
+}
+.text{
+    color: #1F2937;
+    font-size: 18px;
+    max-width: 200px;
+   min-width: 200px
+}
+
+.content_2_div{
+    margin-top: 10vh;
+    display: flex;
+    gap: 48px;
+    padding: 0;
+}
+
+.content_2_text{
+    display: flex;
+    gap: 48px;
     
 }

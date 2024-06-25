@@ -1,5 +1,6 @@
 *{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 body{
 margin: 0;
@@ -91,8 +92,6 @@ max-width: 400px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
- 
-    
 }
 
 h3{
@@ -105,6 +104,7 @@ color: #1F2937
 border: solid  #3882F6  4px;
 height: 200px;
 min-width: 200px;
+max-width: 200px;
 border-radius: 25px;
 margin-bottom: 16px;
 
@@ -113,18 +113,20 @@ margin-bottom: 16px;
     color: #1F2937;
     font-size: 18px;
     max-width: 200px;
-   min-width: 200px
+   min-width: 200px;
+
 }
+
+
 
 .content_2_div{
     margin-top: 10vh;
     display: flex;
     gap: 48px;
-    padding: 0;
+
 }
 
 .content_2_text{
     display: flex;
     gap: 48px;
-    
 }

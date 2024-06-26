@@ -1,5 +1,6 @@
 *{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 body{
 margin: 0;
@@ -72,7 +73,6 @@ h2{
 
 .content_1{
     display: flex;
-
 flex-direction: column;
 max-width: 400px;
 }
@@ -86,13 +86,12 @@ max-width: 400px;
     background-color: white;
     padding: 0 10vw 0 10vw;
     min-height: 25vw;
+    margin-bottom: 10vw;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
- 
-    
 }
 
 h3{
@@ -105,6 +104,7 @@ color: #1F2937
 border: solid  #3882F6  4px;
 height: 200px;
 min-width: 200px;
+max-width: 200px;
 border-radius: 25px;
 margin-bottom: 16px;
 
@@ -113,18 +113,77 @@ margin-bottom: 16px;
     color: #1F2937;
     font-size: 18px;
     max-width: 200px;
-   min-width: 200px
+   min-width: 200px;
+
 }
+
+
 
 .content_2_div{
     margin-top: 10vh;
     display: flex;
     gap: 48px;
-    padding: 0;
+
 }
 
 .content_2_text{
     display: flex;
     gap: 48px;
-    
+}
+
+.body_3{
+    background-color: #E5E7EB;
+    padding: 0 10vw 0 10vw;
+    min-height: 25vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+h4{
+  max-width: 40vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   font-size: 36px;
+   font-style: italic;
+   font-weight: lighter;
+   color: #1F2937;
+   margin: 0
+}
+ p.quote{
+    color: #1F2937 ;
+    display: flex;
+    justify-content: flex-end;
+    width: 40vw;
+    font-weight:700
+}
+
+.content{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    min-width: 75vw;
+    justify-content: center;
+    padding: 32px 10vw;
+    border-radius: 10px;
+}
+
+.body_final{
+    background-color: white;
+    padding: 0 10vw 0 10vw;
+    min-height: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottom{
+    border: 1px solid #E5E7EB;
+}
+h5{
+    font-size: 24px;
+    margin: 0
 }

@@ -73,7 +73,6 @@ h2{
 
 .content_1{
     display: flex;
-
 flex-direction: column;
 max-width: 400px;
 }
@@ -87,6 +86,7 @@ max-width: 400px;
     background-color: white;
     padding: 0 10vw 0 10vw;
     min-height: 25vw;
+    margin-bottom: 10vw;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -129,4 +129,33 @@ margin-bottom: 16px;
 .content_2_text{
     display: flex;
     gap: 48px;
+}
+
+.body_3{
+    background-color: #E5E7EB;
+    padding: 0 10vw 0 10vw;
+    min-height: 25vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+h4{
+  max-width: 40vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   font-size: 36px;
+   font-style: italic;
+   font-weight: lighter;
+   color: #1F2937;
+   margin: 0
+}
+ p.quote{
+    color: #1F2937 ;
+    display: flex;
+    justify-content: flex-end;
+    width: 40vw;
+    font-weight:700
 }

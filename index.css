@@ -4,6 +4,7 @@
 }
 body{
 margin: 0;
+padding: 0;
 }
 
 a{
@@ -34,7 +35,7 @@ h1{
 
 .body_1{
     background-color: #1F2937;
-    padding: 0 10vw 10vw 10vw;
+    padding: 0 15vw 10vw 15vw;
     min-height: 25vw
     
 }
@@ -45,11 +46,12 @@ button{
     align-items: center;
     font-size: 18px;
     color: #E5E7EB;
-    max-height: 50px;
-    width: 100px;
+    height: 36px;
+    width: 120px;
     font-weight: 700;
     border-radius: 10px;
-    border: 0px;;
+    border: 0px;
+    cursor: pointer;
 }
 img{
     display: flex;
@@ -74,7 +76,7 @@ h2{
 .content_1{
     display: flex;
 flex-direction: column;
-max-width: 400px;
+max-width: 480px;
 }
 
 .content_page_1{
@@ -163,17 +165,18 @@ h4{
 .content{
     background-color: #3882F6;
     color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    min-width: 75vw;
-    justify-content: center;
-    padding: 32px 10vw;
+    padding: 48px 10vw;
     border-radius: 10px;
-}
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
 
+}
+.p_grid{
+    grid-row-start: 2
+}
 .body_final{
     background-color: white;
-    padding: 0 10vw 0 10vw;
+    padding: 0 5vw 0 5vw;
     min-height: 25vw;
     display: flex;
     flex-direction: column;
@@ -182,8 +185,18 @@ h4{
 }
 .bottom{
     border: 1px solid #E5E7EB;
+    grid-row-start: 2;
+    grid-column-start: 4;
 }
 h5{
     font-size: 24px;
-    margin: 0
+    margin: 0;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
 }
